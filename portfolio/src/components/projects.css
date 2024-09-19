@@ -1,0 +1,45 @@
+.slick-next{
+    right: 10px;
+    top: 200px;
+    overflow: hidden;
+    width: 30px;
+    height: 50px;
+    z-index: 10;
+}
+
+.slick-prev{
+    left: 10px;
+    top: 200px;
+    overflow: hidden;
+    width: 30px;
+    height: 50px;
+    z-index: 10;
+}
+
+.slick-slider{
+    overflow: hidden;
+}
+
+.slick-dots{
+    display: none !important;
+}
+
+.slick-prev:before {
+    content: url(../../public/logos/left-arrow.svg);
+}
+
+.slick-next:before {
+    content: url(../../public/logos/right-arrow.svg);
+}
+
+@media screen and (min-width: 1024px) {
+    .d2{
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slick-next:before,.slick-prev:before{
+        display: none;
+    }
+}

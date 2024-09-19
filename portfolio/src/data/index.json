@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "id":"1",
+            "src":"./images/soundwave.png",
+            "title":"SoundWave : Music Streaming App",
+            "description":"SoundWave is a web-based music streaming application that allows users to browse and play non-copyrighted music from various genres. Built using HTML, CSS, and JavaScript, it features a dynamic playlist interface, responsive design, and basic media controls like play, pause, skip, and volume adjustment."
+        },
+        {
+            "id":"2",
+            "src":"./images/food.png",
+            "title":"City Comfort Diner : Interactive Restaurant Website",
+            "description":"This project creates a modern, responsive website for City Comfort Diner, featuring a dynamic navbar that changes on scroll, smooth section scrolling, and mobile-friendly navigation. Built with HTML, CSS, JavaScript, and jQuery, it enhances user experience with seamless transitions and interactive elements."
+        },
+        {
+            "id":"3",
+            "src":"./images/snake.png",
+            "title":"Sssnake : A Classic Snake Game",
+            "description":"Sssnake is a modern recreation of the classic Snake game, built with JavaScript, HTML, and CSS. Control the snake using arrow keys, eat food to grow, and avoid colliding with walls or yourself. The game keeps track of your score and high score, providing endless fun!"
+        },
+        {
+            "id":"4",
+            "src":"./images/weather.png",
+            "title":"Weatherly: Instant Weather Info",
+            "description":"Weatherly provides real-time weather updates and a 4-day forecast. Users can search by city name or use their current location to get accurate weather details. The app fetches data from OpenWeatherMap, displaying temperature, wind speed, humidity, and weather conditions with intuitive, user-friendly interfaces."
+        },
+        {
+            "id":"5",
+            "src":"./images/twitter.png",
+            "title":"SoundWave : Music Streaming App",
+            "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam optio ratione hic quibusdam, est quos in, sint consequuntur tempore natus ad modi, id blanditiis nemo voluptas aliquid adipisci exercitationem veniam asperiores. Vel sapiente, sed ea qui provident accusamus fuga debitis ab. Quas esse deleniti expedita obcaecati sequi doloremque mollitia saepe."
+        }
+    ]
+}

@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex justify-between items-center md:px-10 px-5 md:py-5 py-3 bg-[#f2a44c] fixed top-0 left-0 right-0">
+            <nav className="flex justify-between items-center md:px-10 px-5 md:py-5 py-3 bg-[#f2a44c] fixed top-0 left-0 right-0 z-10">
                 <div>
                     <img src="" alt="" />
                 </div>

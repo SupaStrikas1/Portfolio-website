@@ -17,10 +17,7 @@ function Hero() {
                         </div>
                         <p className="font-roboto lg:text-[1.875rem] md:text-[1.2rem] text-[1rem] text-[#101820] dark:text-[#f2a44c] lg:pb-6 md:pb-5 pb-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit mollitia ad blanditiis, neque eveniet dolores quae soluta natus ex veniam?</p>
                     </div>
-                    <div className="flex items-center justify-center lg:gap-7 gap-5">
-                        <button className="bg-[#101820] dark:bg-[#f2a44c] hover:bg-[#f2a44c] dark:hover:bg-[#101820] text-[#f2a44c] dark:text-[#101820] hover:text-[#101820] dark:hover:text-[#f2a44c] font-roboto lg:py-2 lg:px-3 rounded-full lg:text-[1.875rem] font-semibold lg:w-[18rem] w-[10rem] lg:h-[5.5rem] h-[3rem] lg:leading-8 leading-5 hover:border-[#101820] dark:hover:border-[#f2a44c] hover:border-2">Download<br />Resume</button>
-                        <button className="bg-[#101820] dark:bg-[#f2a44c] hover:bg-[#f2a44c] dark:hover:bg-[#101820] text-[#f2a44c] dark:text-[#101820] hover:text-[#101820] dark:hover:text-[#f2a44c] font-roboto lg:py-2 lg:px-3 rounded-full lg:text-[1.875rem] font-semibold lg:w-[18rem] w-[10rem] lg:h-[5.5rem] h-[3rem] lg:leading-8 leading-5 hover:border-[#101820] dark:hover:border-[#f2a44c] hover:border-2">Get In Touch</button>
-                    </div>
+                    qqqq
                 </div>
                 <div className="lg:h-[526px] md:h-[290px] lg:w-[526px] md:w-[290px] bg-[#f2a44c] rounded-full hidden md:block"></div>
             </section>

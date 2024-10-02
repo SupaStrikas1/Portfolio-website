@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa"
+import Switcher from './Switcher';
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -35,38 +36,39 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-5 overflow-hidden">
+                    <Switcher />
                     <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="contact" className="border-2 border-[#101820] md:text-[1.2rem] text-[1rem] text-[#101820] md:p-3 p-1 rounded-lg hover:bg-[#101820] hover:text-[#f2a44c] cursor-pointer">
                         Contact Me
                     </Link>
-                    <button className="text-[#101820] text-[1.4rem] md:hidden" onClick={()=>setNavActive(!navActive)}>
-                        <FaBars/>
+                    <button className="text-[#101820] text-[1.4rem] md:hidden" onClick={() => setNavActive(!navActive)}>
+                        <FaBars />
                     </button>
                 </div>
             </nav>
             <div>
-            <ul className={`bg-[#101820] w-[100vw] text-center text-[#f2a44c] border-4 border-[#f2a44c] font-roboto text-[1.2rem] fixed top-[60px] z-10 md:hidden ${navActive?"":"hidden"}`}>
-                        <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="hero" className="cursor-pointer">
-                                Home
-                            </Link>
-                        </li>
-                        <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="about" className="cursor-pointer">
-                                About
-                            </Link>
-                        </li>
-                        <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="projects" className="cursor-pointer">
-                                Projects
-                            </Link>
-                        </li>
-                        <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="education" className="cursor-pointer">
-                                Education
-                            </Link>
-                        </li>
-                    </ul>
+                <ul className={`bg-[#101820] w-[100vw] text-center text-[#f2a44c] border-4 border-[#f2a44c] font-roboto md:text-[20px] fixed top-[60px] z-10 md:hidden ${navActive ? "" : "hidden"}`}>
+                    <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-b-lg border-t-4 border-t-[#101820]">
+                        <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="hero" className="cursor-pointer">
+                            Home
+                        </Link>
+                    </li>
+                    <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
+                        <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="about" className="cursor-pointer">
+                            About
+                        </Link>
+                    </li>
+                    <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-lg">
+                        <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="projects" className="cursor-pointer">
+                            Projects
+                        </Link>
+                    </li>
+                    <li className="p-3 hover:bg-[#f2a44c] hover:text-[#101820] rounded-t-lg border-b-4 border-b-[#101820]">
+                        <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="education" className="cursor-pointer">
+                            Education
+                        </Link>
+                    </li>
+                </ul>
             </div>
         </>
     )

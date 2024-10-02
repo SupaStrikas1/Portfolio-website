@@ -20,7 +20,7 @@ function Projects() {
 
   return (
     <>
-      <section className="bg-[#f2a44c] dark:bg-[#101820] py-[2rem] md:px-5 px-2 gap-40">
+      <section id='projects' className="bg-[#f2a44c] dark:bg-[#101820] py-[2rem] md:px-5 px-2 gap-40">
         <div>
           <h2 className="font-lilita dark:text-[#f2a44c] text-[#101820] lg:text-[64px] md:text-[48px] text-[32px] text-center">PROJECTS</h2>
         </div>

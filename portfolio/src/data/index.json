@@ -30,5 +30,58 @@
             "title":"SoundWave : Music Streaming App",
             "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam optio ratione hic quibusdam, est quos in, sint consequuntur tempore natus ad modi, id blanditiis nemo voluptas aliquid adipisci exercitationem veniam asperiores. Vel sapiente, sed ea qui provident accusamus fuga debitis ab. Quas esse deleniti expedita obcaecati sequi doloremque mollitia saepe."
         }
+    ],
+
+    "skills": [
+        {
+            "id":"1",
+            "src":"./images/htmllogo.png",
+            "title":"HTML"
+        },
+        {
+            "id":"2",
+            "src":"./images/csslogo.png",
+            "title":"CSS"
+        },
+        {
+            "id":"3",
+            "src":"./images/jslogo.png",
+            "title":"JAVASCRIPT"
+        },
+        {
+            "id":"4",
+            "src":"./images/reactlogo.png",
+            "title":"REACT"
+        },
+        {
+            "id":"5",
+            "src":"./images/tailwindlogo.png",
+            "title":"TAILWIND"
+        },
+        {
+            "id":"6",
+            "src":"./images/bootstraplogo.png",
+            "title":"BOOTSTRAP"
+        },
+        {
+            "id":"7",
+            "src":"./images/javalogo.png",
+            "title":"JAVA"
+        },
+        {
+            "id":"8",
+            "src":"./images/clogo.png",
+            "title":"C"
+        },
+        {
+            "id":"9",
+            "src":"./images/gitlogo.png",
+            "title":"GIT"
+        },
+        {
+            "id":"10",
+            "src":"./images/figmalogo.png",
+            "title":"FIGMA"
+        }
     ]
 }

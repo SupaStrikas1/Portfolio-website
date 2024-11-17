@@ -15,22 +15,22 @@ function Navbar() {
                 <div>
                     <ul className="md:flex items-start gap-10 text-[#101820] font-roboto text-[1.2rem] hidden">
                         <li>
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="hero" className="cursor-pointer">
+                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="hero" className="cursor-pointer hover:underline underline-offset-4 decoration-[#101820] decoration-4 ">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="about" className="cursor-pointer">
+                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="about" className="cursor-pointer hover:underline underline-offset-4 decoration-[#101820] decoration-4">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="projects" className="cursor-pointer">
+                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="projects" className="cursor-pointer hover:underline underline-offset-4 decoration-[#101820] decoration-4">
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="education" className="cursor-pointer">
+                            <Link activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="education" className="cursor-pointer hover:underline underline-offset-4 decoration-[#101820] decoration-4">
                                 Education
                             </Link>
                         </li>

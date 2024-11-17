@@ -8,9 +8,9 @@ export default function useDarkSide() {
         const root = window.document.documentElement;
         root.classList.remove(colorTheme);
         root.classList.add(theme);
-        if (localStorage.theme == "dark")
+        /*if (localStorage.theme == "dark")
             localStorage.removeItem("theme");
-        else localStorage.setItem("theme", theme);
+        else*/ localStorage.setItem("theme", theme);
     }, [theme, colorTheme]);
 
     return [colorTheme, setTheme];

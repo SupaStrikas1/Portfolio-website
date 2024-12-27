@@ -26,6 +26,7 @@
 
 .slick-prev:before {
     content: url(../../public/logos/left-arrow.svg);
+    
 }
 
 .slick-next:before {

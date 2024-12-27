@@ -35,13 +35,14 @@ function Hero() {
               <a href="https://www.linkedin.com/in/abhinand-s" target="_blank">
                 <FaLinkedin className="cursor-pointer" />
               </a>
-              <FaGithub className="cursor-pointer" />
-              <FaEnvelope className="cursor-pointer" />
+              <a href="https://github.com/SupaStrikas1" target="_blank"><FaGithub className="cursor-pointer" /></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abhinandappu2005@gmail.com" target="_blank" rel="noopener noreferrer">
+  <FaEnvelope className="cursor-pointer" />
+</a>
+
             </div>
             <p className="font-roboto lg:text-[1.875rem] md:text-[1.2rem] text-[1rem] text-[#101820] dark:text-[#f2a44c] lg:pb-6 md:pb-5 pb-4 text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-              mollitia ad blanditiis, neque eveniet dolores quae soluta natus ex
-              veniam?
+            Crafting User-Centric, Innovative, and Functional Digital Solutions with Expertise in Frontend Design and Full-Stack Development.
             </p>
           </div>
         </motion.div>

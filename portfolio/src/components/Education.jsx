@@ -37,9 +37,9 @@ function Education() {
                         <h2 className="font-lilita dark:text-[#f2a44c] text-[#101820] lg:text-[4rem] md:text-[3rem] text-[2rem] text-center">SKILLS</h2>
                         <div className="flex flex-wrap justify-center items-center gap-y-8 py-3">
                             {data.skills && data.skills.map((item) => (
-                                <div className="lg:basis-[22%] md:basis-[30%] basis-[22%] group flex items-center justify-center flex-col">
-                                    <div className="lg:w-[100px] lg:h-[100px] md:w-[75px] md:h-[75px] w-[60px] h-[60px] bg-black rounded-full flex justify-center items-center border-4 dark:border-[#f2a44c] border-[#101820]">
-                                        <img src={item.src} alt="" className="lg:w-[80px] lg:h-[80px] md:w-[65px] md:h-[65px] w-[50px] h-[50px]" />
+                                <div className="lg:basis-[20%] md:basis-[30%] basis-[22%] group flex items-center justify-center flex-col">
+                                    <div className="lg:w-[80px] lg:h-[80px] md:w-[75px] md:h-[75px] w-[60px] h-[60px] bg-black rounded-full flex justify-center items-center border-4 dark:border-[#f2a44c] border-[#101820]">
+                                        <img src={item.src} alt="" className="lg:w-[60px] lg:h-[60px] md:w-[65px] md:h-[65px] w-[50px] h-[50px]" />
                                     </div>
                                     <div className="w-fit hidden group-hover:block overflow-visible">
                                         <p className="text-[#101820] dark:text-[#f2a44c] text-center font-mono font-bold p-2 sm:text-[15px] text-[11px]">{item.title}</p>
